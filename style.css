@@ -48,7 +48,6 @@ body {
 }
 
 .play-board .food {
-  /* background: #ff003d; */
   background: #ffd79a;
   border-radius: 50%;
 }
@@ -56,10 +55,12 @@ body {
 .play-board .head {
   background: #22c55e;
 }
+
 .play-board .body {
   background-color: #16a34a;
-  border: 1px solid #000;
+  border: 1px solid #212837;
 }
+
 .cover_All {
   display: none;
   background-color: #000;
@@ -70,6 +71,7 @@ body {
   left: 0;
   right: 0;
 }
+
 .game_over {
   display: none;
   align-items: center;
@@ -87,7 +89,7 @@ body {
   color: #b8c6dc;
 }
 
-.game_over > button {
+.game_over>button {
   border: none;
   outline: none;
   padding: 12px;
@@ -96,4 +98,18 @@ body {
   font-size: 17px;
   color: #b8c6dc;
   cursor: pointer;
+}
+
+.message {
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  color: #b8c6dc;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
 }
